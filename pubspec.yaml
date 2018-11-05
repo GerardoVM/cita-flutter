@@ -1,0 +1,66 @@
+name: citapp
+description: App for CITA, research and develop about water
+
+dependencies:
+    flutter:
+        sdk: flutter
+    pigment: ^1.0.3
+    path_provider: ^0.4.1
+    camera: ^0.2.3
+    video_player: ^0.6.5
+    url_launcher: ^3.0.3
+    image_picker: ^0.4.10
+    http: ^0.11.3+17
+
+    geolocator: ^1.7.0
+    cupertino_icons: ^0.1.2
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+    # The following line ensures that the Material Icons font is
+    # included with your application, so that you can use the icons in
+    # the material Icons class.
+    uses-material-design: true
+
+    # To add assets to your application, add an assets section, like this:
+    assets:
+        - assets/images/citalogo.png
+        - assets/images/background1.png
+        - assets/images/nocamera.png
+        - assets/images/newhuaico.png
+        - assets/images/uploading.png
+        - assets/images/loading.gif
+        - assets/images/noconnection.png
+        - assets/images/gpserror.png
+
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.io/assets-and-images/#resolution-aware.
+
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.io/assets-and-images/#from-packages
+
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+    fonts:
+        - family: Muli
+          fonts:
+              - asset: assets/fonts/Muli/Muli-Regular.ttf
+              - asset: assets/fonts/Muli/Muli-Bold.ttf
+              - asset: assets/fonts/Muli/Muli-Black.ttf
+              - asset: assets/fonts/Muli/Muli-Light.ttf
+              - asset: assets/fonts/Muli/Muli-SemiBold.ttf
+        - family: StagSans
+          fonts:
+              - asset: assets/fonts/StagSans/Stag-Sans-Medium.otf
+# For details regarding fonts from package dependencies,
+# see https://flutter.io/custom-fonts/#from-packages
